@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Mancuernas Ajustables 20kg",
+    "price": 259.99,
+    "category": "Fuerza",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_676651-MPE89456529090_082025-O-juego-de-mancuernas-ajustables-de-611-kg-entrenamiento.webp",
+    "stock": 15,
+    "rating": 4.7
+  },
+  {
+    "id": 2,
+    "name": "Colchoneta Yoga Antideslizante",
+    "price": 39.9,
+    "category": "Yoga",
+    "image": "https://oechsle.vteximg.com.br/arquivos/ids/2964975/image-0f56050f1e6147458e14b3f1a67b9be8.jpg?v=637495714008530000",
+    "stock": 40,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Banda Elástica (pack x3)",
+    "price": 24.5,
+    "category": "Accesorios",
+    "image": "https://dekaplus.com.pe/wp-content/uploads/2021/05/BANDAS-ELASTICAS-TELA-PRINCIPAL-600X600.jpg",
+    "stock": 60,
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Proteína Whey 2lb",
+    "price": 54.0,
+    "category": "Suplementos",
+    "image": "https://nutripoint.com.pe/wp-content/uploads/2025/06/New_Junio_GoldStandard_WheyProtein_Vainilla_2lb_ON.jpg",
+    "stock": 25,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Barra Olímpica 20kg",
+    "price": 199.0,
+    "category": "Fuerza",
+    "image": "https://cdn1.sveltus.com/6911-superlarge_default/barra-de-entrenamiento-20kg-220cm.jpg",
+    "stock": 8,
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Guantes de Gimnasio",
+    "price": 18.0,
+    "category": "Accesorios",
+    "image": "https://promart.vteximg.com.br/arquivos/ids/6754647/image-f74ddea80b194c99a46cdb4bc0146198.jpg?v=638125899092900000",
+    "stock": 50,
+    "rating": 4.2
+  }
+]
