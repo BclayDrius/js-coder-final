@@ -359,7 +359,7 @@ class AppController {
     localStorage.setItem("checkoutUser", JSON.stringify(user));
 
     // Simulate async payment
-    const loading = Swal.fire({
+    Swal.fire({
       title: "Procesando pago...",
       didOpen: () => Swal.showLoading(),
       allowOutsideClick: false,
@@ -367,8 +367,11 @@ class AppController {
       showConfirmButton: false,
     });
 
+    // Wait for the loading animation
     await new Promise((r) => setTimeout(r, 1500));
-    (await loading).close && (await loading).close();
+
+    // Close the loading popup
+    Swal.close();
 
     const purchaseId = Math.random().toString(36).slice(2, 10).toUpperCase();
     await this.ui.alertSuccess(

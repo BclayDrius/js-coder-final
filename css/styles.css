@@ -186,6 +186,9 @@ main {
 .modal-header { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; background: #1a202c; color: #fff; }
 .modal-footer { display: flex; justify-content: flex-end; gap: 10px; padding: 14px 16px; }
 
+/* SweetAlert2 z-index fix */
+.swal2-container { z-index: 10002 !important; }
+
 .checkout-form { padding: 16px; display: grid; gap: 12px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .form-group { display: grid; gap: 6px; }
